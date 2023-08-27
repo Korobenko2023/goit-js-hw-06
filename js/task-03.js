@@ -23,3 +23,4 @@ const markup = images.map(({url, alt}) => {
 }).join("");
 listEl.insertAdjacentHTML("afterbegin", markup);
 console.log(listEl);
+

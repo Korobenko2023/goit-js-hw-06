@@ -9,7 +9,7 @@ const bodyElement = document.body;
 changeColorBtn.addEventListener('click', () => {
   const randomColor = getRandomHexColor();
   bodyElement.style.backgroundColor = randomColor;
-  colorSpan.textContent = randomColor;
+  colorSpan.textContent = bodyElement.style.backgroundColor;
 })
 
 
