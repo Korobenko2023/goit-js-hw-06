@@ -7,7 +7,7 @@ function hendleSubmit(event) {
  const email = form.elements.email.value;
  const password = form.elements.password.value;
  if (email === '' || password === '') {
-    console.log("Alert! Please fill in all the fields!");
+    alert('Please fill in all the fields!');
     return;
  }
    formData.email = email; 
